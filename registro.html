@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Registro</title>
+    <title>Registro Comprador</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -24,31 +24,69 @@
 
 <body class="bg-gradient-primary">
 
-    <br><br>
-    <br><br>
-    <br><br>
-    <br><br>
-
     <div class="container">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
-                    <img src="/Users/rochigarciadelrio/Downloads/startbootstrap-sb-admin-2-gh-pages  2222/img/fifa-world-cup-qatar-2022-logo-stylized-vector-isolated-illustration-with-football_633888-116.jpg.webp" >
+                    <img src="/Users/rochigarciadelrio/Desktop/Front/img/paul3.png" >
                     <div class="col-lg-7">
                         <div class="p-5">
-                            <br><br>
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Registro</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Creá tu cuenta!</h1>
                             </div>
-                                <a href="registroComprador.html" class="btn btn-primary btn-user btn-block">
-                                    Comprador
+                            <form action="recibir_datos.php" method="post" class="user">
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                            placeholder="Nombre">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                            placeholder="Apellido">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                        placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control form-control-user" id="exampleInputEmail"
+                                        placeholder="Teléfono">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                            id="exampleInputUsername" placeholder="Usuario">
+                                    </div>
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="password" class="form-control form-control-user"
+                                            id="exampleInputPassword" placeholder="Contraseña">
+                                    </div>
+                                </div>
+                                <!--<a href="perfilcomprador.html" class="btn btn-primary btn-user btn-block">
+                                    Registrate
                                 </a>
-                                <a href="registroVendedor.html" class="btn btn-primary btn-user btn-block">
-                                    Vendedor
+                                <hr>
+                                <a href="index.html" class="btn btn-google btn-user btn-block">
+                                    <i class="fab fa-google fa-fw"></i> Registrate con Google
                                 </a>
-                            
+                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                    <i class="fab fa-facebook-f fa-fw"></i> Registrate con Facebook
+                                </a>-->
+                                <input type="submit" value="Registrarse" href="registroCompradorVendedor.html"/>
+                            </form>
+                            <a href="registroCompradorVendedor.html" class="btn btn-primary btn-user btn-block">
+                                Registrarse
+                            </a>
+                            <hr>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">Te olvidaste la contraseña?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="login.html">Ya tenes una cuenta? Login!</a>
+                            </div>
                         </div>
                     </div>
                 </div>

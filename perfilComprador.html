@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>INICIO VENDEDOR</title>
+    <title>INICIO COMPRADOR</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -35,7 +35,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SANTIAGO</div>
+                <div class="sidebar-brand-text mx-3">Martin</div>
             </a>
 
             <!-- Divider -->
@@ -43,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="perfilvendedor.html">
+                <a class="nav-link" href="perfilComprador.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Inicio</span></a>
             </li>
@@ -56,14 +56,16 @@
                     <span>Mensajes</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estado.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Estados</span></a>
+            </li>
 
          
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="favoritos.html"
-                    aria-expanded="true">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Mis Favoritos</span></a>
+        
 
            
             <!-- Nav Item - Tables -->
@@ -253,17 +255,13 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> Santiago Del Rio</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> Martin Fres</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Stock
-                                </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -301,7 +299,9 @@
                                     <th>Nombre de Usuario</th>
                                     <th>Fecha</th>
                                     <th>Cantidad</th>
-                                    <th>Orden de compra</th>
+                                    <th>Operación</th>
+                                    <th>Estado</th>
+                                    <th>Chat</th>
                                 
                    
                                 </tr>
@@ -312,7 +312,8 @@
                                     <td>02/08/2022</td>
                                     <td>20 Paquetes</td>
                                     <th>#455909</th>
-                                    <th> Contactar <button class="btn btn-primary" type="button"> </th>
+                                    <th>Reservado</th>
+                                    <th><a class="btn btn-primary" href="mensajes.html">Contactar</a></th>
 
                                 </tr>
                                 <tr>
@@ -320,7 +321,8 @@
                                     <td>15/08/2022</td>
                                     <td>50 Paquetes</td>
                                     <th>#455922</th>
-                                    <th> Contactar <button class="btn btn-primary" type="button"> </th>
+                                    <th>Caída</th>
+                                    <th><a class="btn btn-primary" href="mensajes.html">Contactar</a></th>
 
                                 </tr>
                                 <tr>
@@ -328,7 +330,8 @@
                                     <td>25/08/2022</td>
                                     <td>3 Paquetes</td>
                                     <th>#455670</th>
-                                    <th> Contactar <button class="btn btn-primary" type="button"> </th>
+                                    <th>Efecutada</th>
+                                    <th><a class="btn btn-primary" href="mensajes.html">Contactar</a></th>
 
                                 </tr>
                                 <tr>
@@ -336,7 +339,8 @@
                                     <td>30/08/2022</td>
                                     <td>40 Paquetes</td>
                                     <th>#455976</th>
-                                    <th> Contactar <button class="btn btn-primary" type="button"> </th>
+                                    <th>Efectuada</th>
+                                    <th><a class="btn btn-primary" href="mensajes.html">Contactar</a></th>
                                     
                                     <form></form>
                                    
